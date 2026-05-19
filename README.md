@@ -22,6 +22,9 @@ The project also includes a Java client that consumes the REST API using HTTP re
 ```text
 wine-social-rest-api/
 ├── server/
+│   ├── app/
+│   │   ├── META-INF/
+│   │   └── WEB-INF/
 │   └── Practica1-SOS.war
 ├── client/
 │   └── Java REST client
@@ -29,3 +32,4 @@ wine-social-rest-api/
 │   └── endpoints.md
 ├── README.md
 └── .gitignore
+```
